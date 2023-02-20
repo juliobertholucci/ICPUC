@@ -1,0 +1,71 @@
+.Principal{
+
+    height: 340vh;
+    width: 100%;
+    background-color:#f0eeee;
+}
+
+html *
+{ 
+  font-family: 'Oxygen', sans-serif;
+  font-weight:bold;
+}
+
+body{padding:0;margin:0;}
+
+.formContainer{
+
+    width: 60%;
+    height: auto;
+    margin:0 auto;
+   
+}
+
+
+.title{
+    width:100%;
+    height:5vh;
+    text-align:center;
+}
+
+.form-control{
+
+    border:1px flat black;
+    box-shadow: 4px 5px #c2caca;
+    display:inline-block;
+    text-decoration: none;
+    border-radius: 10px; 
+  
+}
+
+@media screen and (max-width: 900px) {
+    .formContainer {
+        width: 95%;
+        margin:0 auto;
+    }
+
+}
+
+.botao{
+    width:100%;
+    border:1px solid #009ada;
+    color: #009ada;
+   
+}
+
+.botao:hover{
+
+    background-color: #009ada;
+    color: white;
+    border:1px solid #009ada;
+    font-weight: 500;
+    transition: 0.5s;
+
+}
+
+select, input{
+
+    text-align: center;
+    
+
+}

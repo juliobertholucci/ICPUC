@@ -1,0 +1,50 @@
+.Principal24{
+
+    width: 100%;
+    min-height:15vh;
+
+}
+
+.bgcolor{
+
+    background-color: #373737;
+
+}
+
+.nav-item{
+
+    padding: 8px;
+    margin: 5px;
+
+}
+
+.clicked{
+
+    background-color: #5f5e5e;
+    border-radius: 10px;
+}
+
+.nav-item:hover{
+
+    
+    background-color: #5f5e5e;
+    transition: 1s;
+    border-radius: 10px;
+    
+
+}
+
+
+.logoff{
+
+    background-color: #5f5e5e;
+    
+
+}
+
+
+.botaosair{
+
+    color: white;
+
+}

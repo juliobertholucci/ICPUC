@@ -1,0 +1,165 @@
+.back{
+
+  width:60px;
+  height:60px;
+  bottom:0;
+  right:0;
+  position:fixed;
+  background-color:none;
+  margin:5px;
+
+}
+
+
+
+
+.icon{
+
+  font-size:50px;color:black;
+
+}
+
+
+
+html *
+{
+  
+  font-family: 'Oxygen', sans-serif;
+  font-weight:bold;
+}
+
+.principal{
+
+width:100%;
+height:auto;
+background-color:#f0eeee;
+
+
+
+
+
+}
+
+
+.spans{
+
+  border:1px flat black; box-shadow: 4px 5px #c2caca;
+
+}
+
+.form-control{
+
+  border:1px flat black;
+  box-shadow: 4px 5px #c2caca;
+  display:inline-block;
+  text-decoration: none;
+  border-radius: 10px;
+  
+
+}
+
+
+.form-control:hover{
+
+  animation: pulsate 1s ease-in-out;
+
+}
+
+
+
+
+
+
+
+.title{
+
+    width:100%;
+    height:5vh;
+    text-align:center;
+    
+
+}
+
+body{margin:0;padding:0;}
+
+
+
+.marg{
+
+  width:80%;
+  margin:0 auto;
+
+}
+
+i:hover{
+
+  cursor: pointer;
+  color:#343635;
+  
+
+}
+
+@media screen and (max-width: 900px) {
+        .marg {
+            width:95%;
+        }
+        #btd{
+
+        width: 100%;
+
+        }
+
+        .icon{
+          font-size:35px;
+
+        }
+
+        .back{
+
+          width: 40px;
+          height:40px;
+          margin:3px;
+
+        }
+
+        #cp{
+
+          box-shadow: 0;
+
+        }
+
+        #city{
+
+          box-shadow: 0;
+
+        }
+
+
+    }
+
+
+
+    .button {
+      text-align:center;
+      height:auto;
+    }
+
+      .btn{
+        background-color: #02b160;
+        color:white;
+        border:1px solid #02b160;
+       
+
+    }
+
+    .btn:hover{
+
+        color:#02b160;
+        background-color: white;
+    }
+      
+      
+      
+  
+
+  

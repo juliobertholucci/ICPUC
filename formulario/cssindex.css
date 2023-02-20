@@ -1,0 +1,51 @@
+body{
+    
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .heigthNavBar{
+
+    min-height: 15vh;
+    
+  }
+
+ #system{
+
+    background-color: transparent;
+    border:none;
+    
+
+
+ }
+
+  @media screen and (max-width: 900px) {
+    .heigthNavBar {
+        height: auto;
+    }
+
+
+}
+
+@media screen and (max-width: 900px) {
+    .heightLogo {
+        height: 8vh;
+    }
+
+    #buttons{
+
+        margin-bottom: 15px;
+
+    }
+
+}
+
+  html *
+    {
+        
+        font-family: 'Oxygen', sans-serif;
+        font-weight:bold;
+    }
+  
+  
